@@ -15,7 +15,7 @@ It provides a simple way to monitor incoming transactions and stay updated with 
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-Ethereum - Open-source blockchain platform.
+Ethereum - Open-source blockchain platform.<br>
 Ethers.js - A JavaScript library for interacting with Ethereum, which inspired this project.
 
 ## Disclaimer
