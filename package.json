@@ -4,15 +4,17 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js",
-    "dev": "nodemon script.js"
+    "start": "tsc script.ts && node script.js",
+    "dev": "nodemon script.js",
+    "compile": "tsc script.ts"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlockJayn"
   },
   "keywords": [
-    "sandwitch",
+    "mempool",
+    "scanner",
     "bot"
   ],
   "author": "BlockJayn",
@@ -22,6 +24,8 @@
     "ethers": "5.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.3"
   }
 }
